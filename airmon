@@ -1,0 +1,6 @@
+#in supervisor mode
+
+step1:	airodump-ng mon0
+step2:	airmon-ng start wlo1
+step3:	airodump-ng mon0 --channel 9 --bssid 48:00:33:97:69:AC --write out
+
